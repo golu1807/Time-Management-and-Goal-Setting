@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="login-container">
+        <h2>Music Collaboration Login</h2>
+        <form method="post" action="login">
+            <input type="text" name="email" placeholder="Email" required><br>
+            <input type="password" name="password" placeholder="Password" required><br>
+            <button type="submit">Login</button>
+        </form>
+        <div class="error">
+            <!-- Error message (simple JS) -->
+            <script>
+                if(location.search.includes("error=1")) document.write("Invalid Email/Password");
+            </script>
+        </div>
+    </div>
+</body>
+</html>
