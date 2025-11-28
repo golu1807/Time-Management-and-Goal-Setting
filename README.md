@@ -144,10 +144,6 @@ Error handling and modular package management
 
 
 
-🎥 Demo / Video
-
-A video walkthrough demonstrates all functionalities including goal creation, time tracking, and admin operations.
-
 
 📝 Conclusion
 
