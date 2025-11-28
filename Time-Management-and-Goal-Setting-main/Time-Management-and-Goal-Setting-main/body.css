@@ -1,0 +1,23 @@
+body {
+    background-color: #f4f6f9;
+}
+
+.card {
+    border-radius: 10px;
+}
+
+.card .form-control {
+    border-radius: 8px;
+}
+
+.invalid-feedback {
+    display: none;
+}
+
+.form-control.is-invalid {
+    border-color: #dc3545;
+}
+
+.form-control.is-invalid + .invalid-feedback {
+    display: block;
+}
